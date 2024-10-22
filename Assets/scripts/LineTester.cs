@@ -7,7 +7,7 @@ public class LineTester : MonoBehaviour
     [SerializeField] private Transform[] points;
     [SerializeField] private LineController line;
 
-    private void Start()
+    private void Update()
     {
         line.SetUpLine(points);
     }
