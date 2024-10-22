@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 391174679}
   - component: {fileID: 391174680}
   - component: {fileID: 391174681}
+  - component: {fileID: 391174682}
   m_Layer: 0
   m_Name: floor4_point_2
   m_TagString: Untagged
@@ -329,6 +330,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &391174682
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391174678}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &401437973
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +543,7 @@ GameObject:
   - component: {fileID: 537879415}
   - component: {fileID: 537879416}
   - component: {fileID: 537879417}
+  - component: {fileID: 537879418}
   m_Layer: 0
   m_Name: floor4_point_3
   m_TagString: Untagged
@@ -597,6 +634,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &537879418
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537879414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &543815458
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +680,7 @@ GameObject:
   - component: {fileID: 543815459}
   - component: {fileID: 543815460}
   - component: {fileID: 543815461}
+  - component: {fileID: 543815462}
   m_Layer: 0
   m_Name: floor5_point_3
   m_TagString: Untagged
@@ -698,6 +771,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &543815462
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543815458}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: -0.00000047683716}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &552713165
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +901,7 @@ GameObject:
   - component: {fileID: 566406088}
   - component: {fileID: 566406089}
   - component: {fileID: 566406090}
+  - component: {fileID: 566406091}
   m_Layer: 0
   m_Name: end_point
   m_TagString: Untagged
@@ -883,6 +992,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &566406091
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566406087}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &590274359
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +1038,7 @@ GameObject:
   - component: {fileID: 590274360}
   - component: {fileID: 590274361}
   - component: {fileID: 590274362}
+  - component: {fileID: 590274363}
   m_Layer: 0
   m_Name: floor3_point_3
   m_TagString: Untagged
@@ -984,6 +1129,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &590274363
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590274359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &603510696
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,6 +1175,7 @@ GameObject:
   - component: {fileID: 603510697}
   - component: {fileID: 603510698}
   - component: {fileID: 603510699}
+  - component: {fileID: 603510700}
   m_Layer: 0
   m_Name: trader_point
   m_TagString: Untagged
@@ -1085,6 +1266,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &603510700
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603510696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &609680134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,6 +1312,7 @@ GameObject:
   - component: {fileID: 609680135}
   - component: {fileID: 609680136}
   - component: {fileID: 609680137}
+  - component: {fileID: 609680138}
   m_Layer: 0
   m_Name: floor2_point_2
   m_TagString: Untagged
@@ -1186,6 +1403,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &609680138
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609680134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &759731358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1449,7 @@ GameObject:
   - component: {fileID: 759731359}
   - component: {fileID: 759731360}
   - component: {fileID: 759731361}
+  - component: {fileID: 759731362}
   m_Layer: 0
   m_Name: floor1_point_1
   m_TagString: Untagged
@@ -1287,6 +1540,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &759731362
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759731358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &762377713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1586,7 @@ GameObject:
   - component: {fileID: 762377714}
   - component: {fileID: 762377715}
   - component: {fileID: 762377716}
+  - component: {fileID: 762377717}
   m_Layer: 0
   m_Name: start_point
   m_TagString: Untagged
@@ -1388,6 +1677,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &762377717
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762377713}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.0000009536743}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &764691110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +1956,7 @@ GameObject:
   - component: {fileID: 893847025}
   - component: {fileID: 893847026}
   - component: {fileID: 893847027}
+  - component: {fileID: 893847028}
   m_Layer: 0
   m_Name: floor1_point_2
   m_TagString: Untagged
@@ -1722,6 +2047,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &893847028
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893847024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &915953095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,6 +2373,7 @@ GameObject:
   - component: {fileID: 991151925}
   - component: {fileID: 991151926}
   - component: {fileID: 991151927}
+  - component: {fileID: 991151928}
   m_Layer: 0
   m_Name: floor2_point_3
   m_TagString: Untagged
@@ -2103,6 +2464,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &991151928
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991151924}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1005739068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,6 +2897,7 @@ GameObject:
   - component: {fileID: 1221011206}
   - component: {fileID: 1221011207}
   - component: {fileID: 1221011208}
+  - component: {fileID: 1221011209}
   m_Layer: 0
   m_Name: floor6_point_2
   m_TagString: Untagged
@@ -2591,6 +2988,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1221011209
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221011205}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1284632928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,6 +3034,7 @@ GameObject:
   - component: {fileID: 1284632929}
   - component: {fileID: 1284632930}
   - component: {fileID: 1284632931}
+  - component: {fileID: 1284632932}
   m_Layer: 0
   m_Name: floor4_point_1
   m_TagString: Untagged
@@ -2692,6 +3125,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1284632932
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284632928}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1357369703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2791,6 +3259,7 @@ GameObject:
   - component: {fileID: 1391862750}
   - component: {fileID: 1391862751}
   - component: {fileID: 1391862752}
+  - component: {fileID: 1391862753}
   m_Layer: 0
   m_Name: floor3_point_2
   m_TagString: Untagged
@@ -2881,6 +3350,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1391862753
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391862749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1520119060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3041,6 +3545,7 @@ GameObject:
   - component: {fileID: 1625037963}
   - component: {fileID: 1625037964}
   - component: {fileID: 1625037965}
+  - component: {fileID: 1625037966}
   m_Layer: 0
   m_Name: floor3_point_1
   m_TagString: Untagged
@@ -3131,6 +3636,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1625037966
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625037962}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1629805853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,6 +3682,7 @@ GameObject:
   - component: {fileID: 1629805854}
   - component: {fileID: 1629805855}
   - component: {fileID: 1629805856}
+  - component: {fileID: 1629805857}
   m_Layer: 0
   m_Name: floor6_point_3
   m_TagString: Untagged
@@ -3232,6 +3773,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1629805857
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629805853}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00000023841858, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1647484049
 GameObject:
   m_ObjectHideFlags: 0
@@ -3243,6 +3819,7 @@ GameObject:
   - component: {fileID: 1647484050}
   - component: {fileID: 1647484051}
   - component: {fileID: 1647484052}
+  - component: {fileID: 1647484053}
   m_Layer: 0
   m_Name: floor5_point_2
   m_TagString: Untagged
@@ -3333,6 +3910,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1647484053
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647484049}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000047683716}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1658109918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +3997,7 @@ GameObject:
   - component: {fileID: 1728353983}
   - component: {fileID: 1728353984}
   - component: {fileID: 1728353985}
+  - component: {fileID: 1728353986}
   m_Layer: 0
   m_Name: floor5_point_1
   m_TagString: Untagged
@@ -3475,6 +4088,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1728353986
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728353982}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000047683716}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1737583715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,6 +4134,7 @@ GameObject:
   - component: {fileID: 1737583716}
   - component: {fileID: 1737583717}
   - component: {fileID: 1737583718}
+  - component: {fileID: 1737583719}
   m_Layer: 0
   m_Name: floor6_point_1
   m_TagString: Untagged
@@ -3576,6 +4225,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &1737583719
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737583715}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1815553796
 GameObject:
   m_ObjectHideFlags: 0
@@ -3790,6 +4474,7 @@ GameObject:
   - component: {fileID: 2018126792}
   - component: {fileID: 2018126793}
   - component: {fileID: 2018126794}
+  - component: {fileID: 2018126795}
   m_Layer: 0
   m_Name: floor2_point_1
   m_TagString: Untagged
@@ -3880,6 +4565,41 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+--- !u!58 &2018126795
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018126791}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
