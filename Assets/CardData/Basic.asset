@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0deb02ed224804c4f9b9c64af903bb25, type: 3}
   m_Name: Basic
   m_EditorClassIdentifier: 
-  cardName: Test
-  cardType: 0
+  cardName: Basic
+  cardType: 00000000
   health: 0
   damageMin: 0
   damageMax: 0
-  damageType: 0
+  damageType: 00000000
