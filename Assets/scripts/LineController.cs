@@ -18,6 +18,10 @@ public class LineController : MonoBehaviour
     }
     void Update()
     {
-        
+        for (int i = 0; i < points.Length; i++)
+        {
+            lineRenderer.SetPosition(i, points[i].position);
+
+        }
     }
 }
