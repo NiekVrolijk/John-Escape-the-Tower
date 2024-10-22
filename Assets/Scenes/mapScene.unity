@@ -238,6 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391174679}
   - component: {fileID: 391174680}
+  - component: {fileID: 391174681}
   m_Layer: 0
   m_Name: floor4_point_2
   m_TagString: Untagged
@@ -312,6 +313,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &391174681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391174678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 11
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &401437973
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +342,7 @@ GameObject:
   - component: {fileID: 401437976}
   - component: {fileID: 401437975}
   - component: {fileID: 401437974}
+  - component: {fileID: 401437979}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -466,6 +484,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &401437979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401437973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2f75d4e77329d4c9372a5216ce6ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &537879414
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 537879415}
   - component: {fileID: 537879416}
+  - component: {fileID: 537879417}
   m_Layer: 0
   m_Name: floor4_point_3
   m_TagString: Untagged
@@ -550,6 +581,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &537879417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537879414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 12
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &543815458
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543815459}
   - component: {fileID: 543815460}
+  - component: {fileID: 543815461}
   m_Layer: 0
   m_Name: floor5_point_3
   m_TagString: Untagged
@@ -634,6 +682,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &543815461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543815458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 15
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &552713165
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566406088}
   - component: {fileID: 566406089}
+  - component: {fileID: 566406090}
   m_Layer: 0
   m_Name: end_point
   m_TagString: Untagged
@@ -802,6 +867,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &566406090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566406087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 19
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &590274359
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590274360}
   - component: {fileID: 590274361}
+  - component: {fileID: 590274362}
   m_Layer: 0
   m_Name: floor3_point_3
   m_TagString: Untagged
@@ -886,6 +968,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &590274362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590274359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 8
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &603510696
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,6 +994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603510697}
   - component: {fileID: 603510698}
+  - component: {fileID: 603510699}
   m_Layer: 0
   m_Name: trader_point
   m_TagString: Untagged
@@ -970,6 +1069,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &603510699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603510696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 9
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &609680134
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +1095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 609680135}
   - component: {fileID: 609680136}
+  - component: {fileID: 609680137}
   m_Layer: 0
   m_Name: floor2_point_2
   m_TagString: Untagged
@@ -1054,6 +1170,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &609680137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609680134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 4
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &759731358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759731359}
   - component: {fileID: 759731360}
+  - component: {fileID: 759731361}
   m_Layer: 0
   m_Name: floor1_point_1
   m_TagString: Untagged
@@ -1138,6 +1271,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &759731361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759731358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 1
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &762377713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762377714}
   - component: {fileID: 762377715}
+  - component: {fileID: 762377716}
   m_Layer: 0
   m_Name: start_point
   m_TagString: Untagged
@@ -1222,6 +1372,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &762377716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762377713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 0
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &764691110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,6 +1631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 893847025}
   - component: {fileID: 893847026}
+  - component: {fileID: 893847027}
   m_Layer: 0
   m_Name: floor1_point_2
   m_TagString: Untagged
@@ -1539,6 +1706,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893847027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893847024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 2
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &915953095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,6 +2012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991151925}
   - component: {fileID: 991151926}
+  - component: {fileID: 991151927}
   m_Layer: 0
   m_Name: floor2_point_3
   m_TagString: Untagged
@@ -1903,6 +2087,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &991151927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991151924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 5
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1005739068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,6 +2500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1221011206}
   - component: {fileID: 1221011207}
+  - component: {fileID: 1221011208}
   m_Layer: 0
   m_Name: floor6_point_2
   m_TagString: Untagged
@@ -2374,6 +2575,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1221011208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221011205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 17
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1284632928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,6 +2601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284632929}
   - component: {fileID: 1284632930}
+  - component: {fileID: 1284632931}
   m_Layer: 0
   m_Name: floor4_point_1
   m_TagString: Untagged
@@ -2458,6 +2676,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1284632931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284632928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 10
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1357369703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1391862750}
   - component: {fileID: 1391862751}
+  - component: {fileID: 1391862752}
   m_Layer: 0
   m_Name: floor3_point_2
   m_TagString: Untagged
@@ -2630,6 +2865,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1391862752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391862749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 7
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1520119060
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,6 +3040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625037963}
   - component: {fileID: 1625037964}
+  - component: {fileID: 1625037965}
   m_Layer: 0
   m_Name: floor3_point_1
   m_TagString: Untagged
@@ -2863,6 +3115,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1625037965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625037962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 6
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1629805853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,6 +3141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629805854}
   - component: {fileID: 1629805855}
+  - component: {fileID: 1629805856}
   m_Layer: 0
   m_Name: floor6_point_3
   m_TagString: Untagged
@@ -2947,6 +3216,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1629805856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629805853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 18
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1647484049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +3242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647484050}
   - component: {fileID: 1647484051}
+  - component: {fileID: 1647484052}
   m_Layer: 0
   m_Name: floor5_point_2
   m_TagString: Untagged
@@ -3031,6 +3317,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1647484052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647484049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 14
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1658109918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,6 +3384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728353983}
   - component: {fileID: 1728353984}
+  - component: {fileID: 1728353985}
   m_Layer: 0
   m_Name: floor5_point_1
   m_TagString: Untagged
@@ -3156,6 +3459,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1728353985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728353982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 13
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1737583715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737583716}
   - component: {fileID: 1737583717}
+  - component: {fileID: 1737583718}
   m_Layer: 0
   m_Name: floor6_point_1
   m_TagString: Untagged
@@ -3240,6 +3560,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1737583718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737583715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 16
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1 &1815553796
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,6 +3789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2018126792}
   - component: {fileID: 2018126793}
+  - component: {fileID: 2018126794}
   m_Layer: 0
   m_Name: floor2_point_1
   m_TagString: Untagged
@@ -3527,6 +3864,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2018126794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018126791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a18412d7948e64a81504dac01f1991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointID: 3
+  unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
+  johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
+  exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

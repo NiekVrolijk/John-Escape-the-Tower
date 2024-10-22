@@ -5,6 +5,7 @@ using UnityEngine;
 public class JohnScript : MonoBehaviour
 {
     public static int rations;
+    public static int johnLocation = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,6 @@ public class JohnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Return)) { johnLocation++; }
     }
 }
