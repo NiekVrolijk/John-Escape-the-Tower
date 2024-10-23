@@ -22,7 +22,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     [SerializeField] private Vector3 playPosition;
     [SerializeField] private GameObject glowEffect;
     [SerializeField] private GameObject playArrow;
-    [SerializeField] private GameObject Enemy;
+    [SerializeField] private GameObject Enemy; // here is the enemy game object but my object won't go in it in unity so I don'tknow what to do
 
     void Awake()
     {
@@ -54,7 +54,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
                 if (!Input.GetMouseButton(0)) //check if mouse button is released
                 {                    
                     Destroy(gameObject);
-                    Destroy(Enemy);
+                    Destroy(Enemy);           // here the enemy should get destroyed
                 }
                 break;
          
