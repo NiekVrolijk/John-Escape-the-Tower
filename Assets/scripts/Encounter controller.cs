@@ -13,7 +13,7 @@ public class Encountercontroller : MonoBehaviour
     public TextMeshProUGUI popupText;
     public Button closeButton;
 
-    private List<string> randomEvent = new List<string> {
+    private List<string> randomEvents = new List<string> {
         "You come across a cheese mushroom filled room! You lose 50 Rations as you experience stamina loss.",
         "A trap triggers as you are engulfed in steaming hot cheese! You lose 100 Rations",
         "You encounter a treasure cheese filled with Gouda Cheese, a rare find indeed! You gain 100 rations.",
@@ -23,9 +23,46 @@ public class Encountercontroller : MonoBehaviour
         "The room collapses and you lose 75 rations as you barely escape.",
         "A bag with molten cheese lies before you, you pick it up and you gain 50 rations.",
         "The tyromancer has pickpocketed you and has stolen 100 rations!",
-        "",
-        "",
-        "",
-        "",
     };
+
+    private HashSet<int> visitedTiles = new HashSet<int>();
+
+    void Start()
+    {
+        popupPanel.SetActive(false);
+        closeButton.onClick.AddListener(ClosePopup);
+    }
+
+    public void OnEnterTile(int tileID)
+    {
+        // Check if the tile has already been visited
+        if (!visitedTiles.Contains(tileID))
+        {
+            TriggerRandomEvent();
+            visitedTiles.Add(tileID); 
+        }
+    }
+
+    private void TriggerRandomEvent()
+    {
+        int randomIndex = Random.Range(0, randomEvents.Count);
+        string selectedEvent = randomEvents[randomIndex];
+        popupText.text = selectedEvent;
+        popupPanel.SetActive(true);
+
+        if (selectedEvent.Contains("lose 50 Rations")) JohnScript.rations -= 50;
+        else if (selectedEvent.Contains("lose 100 Rations")) JohnScript.rations -= 100;
+        else if (selectedEvent.Contains("gain 100 rations")) JohnScript.rations += 100;
+        else if (selectedEvent.Contains("lose 25 rations")) JohnScript.rations -= 25;
+        else if (selectedEvent.Contains("gain 50 rations")) JohnScript.rations += 50;
+        else if (selectedEvent.Contains("lose 75 rations")) JohnScript.rations -= 75;
+        else if (selectedEvent.Contains("gain 75 rations")) JohnScript.rations += 75;
+    }
+
+    // Function to close the popup
+    private void ClosePopup()
+    {
+        popupPanel.SetActive(false);
+    }
 }
+
