@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Special
   cardType: 01000000
-  health: 0
-  damageMin: 0
-  damageMax: 0
+  damageMin: 3
+  damageMax: 3
   damageType: 01000000
