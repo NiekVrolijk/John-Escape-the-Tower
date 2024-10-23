@@ -22,6 +22,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     [SerializeField] private Vector3 playPosition;
     [SerializeField] private GameObject glowEffect;
     [SerializeField] private GameObject playArrow;
+    [SerializeField] private GameObject Enemy;
 
     void Awake()
     {
@@ -51,8 +52,9 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
             case 3:
                 HandlePlayState();
                 if (!Input.GetMouseButton(0)) //check if mouse button is released
-                {
-                    TransitionToState0();
+                {                    
+                    Destroy(gameObject);
+                    Destroy(Enemy);
                 }
                 break;
          

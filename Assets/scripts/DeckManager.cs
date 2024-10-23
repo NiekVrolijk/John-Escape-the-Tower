@@ -24,8 +24,8 @@ public class DeckManager : MonoBehaviour
         {
             return;
         }
-        Card nextCard = allCards[currentIndex];
-        //handManager.AddCardToHand(nextCard);
+        Card nextCard = allCards[3];
+        handManager.AddCardToHand(nextCard);
         currentIndex = (currentIndex + 1) % allCards.Count;
     }
 }
