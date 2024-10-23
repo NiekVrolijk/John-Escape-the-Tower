@@ -20,9 +20,9 @@ public class CardMovement : BattleSystem, IDragHandler, IPointerDownHandler, IPo
     [SerializeField] private float selectScale = 1.1f;
     [SerializeField] private Vector2 cardPlay;
     [SerializeField] private Vector3 playPosition;
-    [SerializeField] private GameObject glowEffect;
-    [SerializeField] private GameObject playArrow;
-    public GameObject Enemy; // this should only be used for testing since it requires a human hand to put the enemy in but it should be public if you want to see it in unity
+    [SerializeField] private GameObject glowEffect; // this one idk if it works so just ignore it
+    [SerializeField] private GameObject playArrow; //anything with this here is useless so don't mind it
+    //public GameObject Enemy; // this should only be used for testing since it requires a human hand to put the enemy in but it should be public if you want to see it in unity
     // outside of testing we should use a find with tag or something. we'll make it work
 
     void Awake()
@@ -53,9 +53,9 @@ public class CardMovement : BattleSystem, IDragHandler, IPointerDownHandler, IPo
             case 3:
                 HandlePlayState();
                 if (!Input.GetMouseButton(0)) //check if mouse button is released
-                {                    
-                    Destroy(gameObject);
-                    OnAttack();       // here the enemy should get destroyed
+                {
+
+                    OnAttack();       //this is an connection to the battleSystem onAttack function
                 }
                 break;
          

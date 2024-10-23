@@ -148,6 +148,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 793cda81806332848906ac0e2e99a3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 0}
+  cardData: {fileID: 0}
+  state: 0
+  EnemyBattleStation: {fileID: 0}
+  enemyHUD: {fileID: 0}
+  DialogueText: {fileID: 0}
   selectScale: 1.1
   cardPlay: {x: 0, y: 400}
   playPosition: {x: 0, y: 400, z: 0}

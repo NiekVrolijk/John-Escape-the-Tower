@@ -130,6 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Goblin
-  unitDamage: 1
+  unitDamage: 500
   unitMaxhp: 30
   unitCurrenthp: 30
