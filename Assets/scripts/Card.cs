@@ -17,6 +17,8 @@ namespace John_Project
 
         public int damageMax;
 
+        public int Cost;
+
         public List<DamageType> damageType;
 
         public enum CardType
