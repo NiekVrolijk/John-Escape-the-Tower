@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 4279508741092668157}
   - component: {fileID: -8396593551610074306}
   - component: {fileID: 8234540930126778778}
-  - component: {fileID: 8838459915117479758}
+  - component: {fileID: 3326004527674289368}
   m_Layer: 0
   m_Name: CardPrefab
   m_TagString: Untagged
@@ -136,7 +136,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 3.5}
   m_EdgeRadius: 0
---- !u!114 &8838459915117479758
+--- !u!114 &3326004527674289368
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,10 +145,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 538472159345966472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe806827e300ab4da7c6d961e1e5f63, type: 3}
+  m_Script: {fileID: 11500000, guid: 793cda81806332848906ac0e2e99a3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSensitivity: 1
+  selectScale: 1.1
+  cardPlay: {x: 0, y: 400}
+  playPosition: {x: 0, y: 400, z: 0}
+  glowEffect: {fileID: 3633924004341369239}
+  playArrow: {fileID: 6280717216126410828}
 --- !u!1 &2035176307522090795
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8482686091974819003
 RectTransform:
   m_ObjectHideFlags: 0
@@ -484,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7462306135368805450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -521,7 +525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2682879227666410993
 RectTransform:
   m_ObjectHideFlags: 0
@@ -753,6 +757,41 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &6280717216126410828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5122810885700503034}
+  m_Layer: 0
+  m_Name: PlayArrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &5122810885700503034
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6280717216126410828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2923160486474067724}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7554299747875240176
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3141161030116629016
 RectTransform:
   m_ObjectHideFlags: 0
@@ -880,7 +919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8382843055977544146
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1220,6 +1259,7 @@ RectTransform:
   - {fileID: 8382843055977544146}
   - {fileID: 4829655185005806239}
   - {fileID: 8695724016319389587}
+  - {fileID: 5122810885700503034}
   m_Father: {fileID: 4279508741092668157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1272,7 +1312,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 126
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7894970009194627632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +1345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &335536770094005833
 RectTransform:
   m_ObjectHideFlags: 0
