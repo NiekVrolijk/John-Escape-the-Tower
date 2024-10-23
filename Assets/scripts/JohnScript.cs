@@ -16,6 +16,6 @@ public class JohnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(rations);
     }
 }

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0deb02ed224804c4f9b9c64af903bb25, type: 3}
   m_Name: Cheese
   m_EditorClassIdentifier: 
-  cardName: Basic
+  cardName: Cheese
   cardType: 00000000
-  damageMin: 1
-  damageMax: 1
+  damageMin: 10
+  damageMax: 10
+  Cost: 0
   damageType: 00000000
