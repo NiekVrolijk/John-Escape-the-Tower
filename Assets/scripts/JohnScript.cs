@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JohnScript : MonoBehaviour
 {
@@ -16,6 +18,13 @@ public class JohnScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(rations);
+        if (rations <= 0)
+        {
+            SceneManager.LoadScene("DeathScene");
+        }
+        if (johnLocation == 19) 
+        {
+            SceneManager.LoadScene("WinScene");
+        }
     }
 }
