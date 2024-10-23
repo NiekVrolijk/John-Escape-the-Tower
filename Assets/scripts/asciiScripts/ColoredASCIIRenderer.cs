@@ -6,7 +6,7 @@ public class ColoredASCIIRenderer : MonoBehaviour
 {
     public string asciiChars = "@#%+=:-. "; // Characters used for ASCII art
     public TextMeshProUGUI uiText; // TextMeshProUGUI component to display ASCII art
-    public int asciiResolution = 16; // Resolution of ASCII grid
+    private int asciiResolution = 16; // Resolution of ASCII grid
 
     void Start()
     {
