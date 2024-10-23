@@ -457,7 +457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1567711503
 RectTransform:
   m_ObjectHideFlags: 0
@@ -491,6 +491,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allCards:
   - {fileID: 11400000, guid: bb40637fdb42bda4b834b67ab89a6f2e, type: 2}
+  - {fileID: 11400000, guid: 466c150e474bdd64581961747ea4e2bb, type: 2}
+  - {fileID: 11400000, guid: b226c83cb614c2b40932078d5afdceb1, type: 2}
+  - {fileID: 11400000, guid: a78046f27618b0048bfc5299e7e103ee, type: 2}
+  - {fileID: 11400000, guid: 96270a46baeb2ee419ca96d7ac3c24b7, type: 2}
+  - {fileID: 11400000, guid: ac1fdbd4e4bab5648b65c2ec8da35d00, type: 2}
+  - {fileID: 11400000, guid: 4d16234f679fc9946bbf5834850613c4, type: 2}
+  - {fileID: 11400000, guid: 9f66d020e15f54247bcd76fe6aace45b, type: 2}
+  - {fileID: 11400000, guid: f8c86ae2107580a41b4558a0c6d699d3, type: 2}
+  - {fileID: 11400000, guid: 180933fb9e7490249855d5a8d30ef1c3, type: 2}
 --- !u!1 &1583231094
 GameObject:
   m_ObjectHideFlags: 0

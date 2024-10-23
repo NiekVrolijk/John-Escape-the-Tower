@@ -19,22 +19,26 @@ public class HandManager : MonoBehaviour
 
     void Start()
     {
+        AddCardToHand();
+        AddCardToHand();
+        AddCardToHand();
+        AddCardToHand();
     }
 
-    public void AddCardToHand(Card cardData)
+    public void AddCardToHand()
     {
         //instantiate card
         GameObject newCard = Instantiate(cardPrefab, handTransform.position, Quaternion.identity, handTransform);
         cardsInHand.Add(newCard);
 
         //put the card data in the instantiated card
-        newCard.GetComponent<CardDisplay>().cardData = cardData;
-
+        //newCard.GetComponent<CardDisplay>().cardData = cardData;
+        newCard.GetComponent<CardDisplay>();
         UpdateHandVisuals();
     }
     private void Update()
     {
-        UpdateHandVisuals();
+        //UpdateHandVisuals();
     }
     private void UpdateHandVisuals()
     {
