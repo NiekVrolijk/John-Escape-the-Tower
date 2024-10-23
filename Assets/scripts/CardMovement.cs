@@ -22,7 +22,8 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
     [SerializeField] private Vector3 playPosition;
     [SerializeField] private GameObject glowEffect;
     [SerializeField] private GameObject playArrow;
-    [SerializeField] private GameObject Enemy; // here is the enemy game object but my object won't go in it in unity so I don'tknow what to do
+    public GameObject Enemy; // this should only be used for testing since it requires a human hand to put the enemy in but it should be public if you want to see it in unity
+    // outside of testing we should use a find with tag or something. we'll make it work
 
     void Awake()
     {
