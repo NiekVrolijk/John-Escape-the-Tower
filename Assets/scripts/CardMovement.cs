@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
+public class CardMovement : BattleSystem, IDragHandler, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
 
 {
     private RectTransform rectTransform;
@@ -55,7 +55,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
                 if (!Input.GetMouseButton(0)) //check if mouse button is released
                 {                    
                     Destroy(gameObject);
-                    Destroy(Enemy);           // here the enemy should get destroyed
+                    OnAttack();       // here the enemy should get destroyed
                 }
                 break;
          
