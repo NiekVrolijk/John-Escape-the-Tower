@@ -13,6 +13,8 @@ public class pointScript : MonoBehaviour
     private bool johnHasBeen;
     private Renderer rend;
 
+    public Encountercontroller encounterController;
+
     // Dictionary to define connections between tiles (2D islands)
     private Dictionary<int, List<int>> tileConnections = new Dictionary<int, List<int>>();
 
@@ -78,6 +80,8 @@ public class pointScript : MonoBehaviour
         }
     }
 
+
+
     // This method will be triggered when the player clicks on the island
     void OnMouseDown()
     {
@@ -91,6 +95,8 @@ public class pointScript : MonoBehaviour
             {
                 JohnScript.johnLocation = pointID;
                 JohnScript.rations -= 100;
+
+                encounterController.OnEnterTile(pointID);
             }
             else
             {
