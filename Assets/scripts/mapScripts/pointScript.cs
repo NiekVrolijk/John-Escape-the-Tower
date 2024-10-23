@@ -95,8 +95,10 @@ public class pointScript : MonoBehaviour
             {
                 JohnScript.johnLocation = pointID;
                 JohnScript.rations -= 100;
-
-                encounterController.OnEnterTile(pointID);
+                if (!CompareTag("Special"))
+                {
+                    encounterController.OnEnterTile(pointID);
+                }
             }
             else
             {

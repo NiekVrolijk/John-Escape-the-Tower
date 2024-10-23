@@ -262,6 +262,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 0}
   johnMaterial: {fileID: 0}
   exploredMaterial: {fileID: 0}
+  encounterController: {fileID: 0}
 --- !u!114 &351299702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,8 +276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointScript: {fileID: 351299701}
-  popupPanel: {fileID: 1544333437}
-  textBox: {fileID: 687230017}
+  popupPanel: {fileID: 1904634455}
+  textBox: {fileID: 0}
   popupText: {fileID: 1784698762}
   closeButton: {fileID: 1869000718}
 --- !u!4 &351299703
@@ -396,6 +397,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &391174682
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -731,6 +733,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &537879418
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -868,6 +871,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &543815462
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1001,7 +1005,7 @@ GameObject:
   - component: {fileID: 566406091}
   m_Layer: 0
   m_Name: end_point
-  m_TagString: Untagged
+  m_TagString: Special
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1089,6 +1093,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &566406091
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1226,6 +1231,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &590274363
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1275,7 +1281,7 @@ GameObject:
   - component: {fileID: 603510700}
   m_Layer: 0
   m_Name: trader_point
-  m_TagString: Untagged
+  m_TagString: Special
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1363,6 +1369,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &603510700
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1500,6 +1507,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &609680138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1709,6 +1717,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &759731362
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1758,7 +1767,7 @@ GameObject:
   - component: {fileID: 762377717}
   m_Layer: 0
   m_Name: start_point
-  m_TagString: Untagged
+  m_TagString: Special
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1846,6 +1855,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &762377717
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2216,6 +2226,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &893847028
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2633,6 +2644,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &991151928
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3157,6 +3169,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1221011209
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3294,6 +3307,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1284632932
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3519,6 +3533,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1391862753
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3880,6 +3895,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1625037966
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4017,6 +4033,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1629805857
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4154,6 +4171,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1647484053
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4332,6 +4350,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1728353986
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4469,6 +4488,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &1737583719
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5305,6 +5325,7 @@ MonoBehaviour:
   unexploredMaterial: {fileID: 2100000, guid: 661ccf7181d1d3b42a86633e4d785bc1, type: 2}
   johnMaterial: {fileID: 2100000, guid: 5f40dec793653ae499cfbe079bc323fa, type: 2}
   exploredMaterial: {fileID: 2100000, guid: eabfef6b83dcebd4ba7b4d35effb3713, type: 2}
+  encounterController: {fileID: 351299702}
 --- !u!58 &2018126795
 CircleCollider2D:
   m_ObjectHideFlags: 0
