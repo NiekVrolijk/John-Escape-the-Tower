@@ -13,9 +13,9 @@ namespace John_Project
 
         public List<CardType> cardType;
 
-        public int damageMin;
+        public int damageMin = 2;
 
-        public int damageMax;
+        public int damageMax = 2;
 
         public int Cost;
 

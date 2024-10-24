@@ -16,4 +16,5 @@ MonoBehaviour:
   cardType: 00000000
   damageMin: 1
   damageMax: 1
+  Cost: 0
   damageType: 00000000

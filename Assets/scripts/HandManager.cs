@@ -19,6 +19,11 @@ public class HandManager : MonoBehaviour
 
     void Start()
     {
+        /*AddCardToHand();
+        AddCardToHand();
+        AddCardToHand();
+        AddCardToHand();*/
+        
     }
 
     public void AddCardToHand(Card cardData)
@@ -26,19 +31,22 @@ public class HandManager : MonoBehaviour
         //instantiate card
         GameObject newCard = Instantiate(cardPrefab, handTransform.position, Quaternion.identity, handTransform);
         cardsInHand.Add(newCard);
+        //^this shit make the card... I think
 
         //put the card data in the instantiated card
         newCard.GetComponent<CardDisplay>().cardData = cardData;
-
+        newCard.GetComponent<CardDisplay>(); //this puta all the data into the cards I don't think you'll need this but just incase you do this is were it happens
+        newCard.GetComponent<BattleSystem>().cardData = cardData;
+        newCard.GetComponent<BattleSystem>();
         UpdateHandVisuals();
     }
     private void Update()
     {
-        UpdateHandVisuals();
+        //UpdateHandVisuals();
     }
     private void UpdateHandVisuals()
     {
-
+        //visuals for were the cards are on the screen
         int cardCount = cardsInHand.Count;
 
         if (cardCount == 1 )
