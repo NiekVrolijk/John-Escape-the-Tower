@@ -135,7 +135,7 @@ public class Enemy_unit : JohnScript
         if (unitCurrenthp <= 0)
         {
             mainCamera.transform.position = new Vector3(0, 0, -10);
-            JohnScript.rations += unitMaxhp * 50;
+            JohnScript.rations += unitMaxhp * 15;
             Destroy(gameObject);
         }
     }

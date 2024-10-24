@@ -69,7 +69,7 @@ public class JohnScript : MonoBehaviour
             // Ensure the corresponding TMP_Text exists in the array (since AttackAmount is 0-based, use i-1)
             if (AttackAmount[i - 1] != null)
             {
-                AttackAmount[i - 1].text = Attack[i-1].ToString();
+                AttackAmount[i].text = Attack[i].ToString();
             }
         }
     }
