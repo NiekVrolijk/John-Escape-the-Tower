@@ -10,6 +10,14 @@ public class Encountercontroller : MonoBehaviour
     public TextMeshProUGUI popupText;
     public Button closeButton;
 
+    public GameObject mainCamera;
+
+    public GameObject EnemyBattleStation;
+    public GameObject enemyPrefab1;
+    public GameObject enemyPrefab2;
+    public GameObject enemyPrefab3;
+    public GameObject enemyPrefab4;
+
     private List<string> randomEvents = new List<string> {
         "You come across a cheese mushroom filled room! You lose 50 Rations as you experience stamina loss.",
         "A trap triggers as you are engulfed in steaming hot cheese! You lose 100 Rations",
@@ -21,6 +29,7 @@ public class Encountercontroller : MonoBehaviour
         "A bag with molten cheese lies before you, you pick it up and you gain 50 rations.",
         "The tyromancer has pickpocketed you, lose 100 Rations!",
     };
+
 
     private HashSet<int> visitedTiles = new HashSet<int>();
 
@@ -35,11 +44,18 @@ public class Encountercontroller : MonoBehaviour
         // Check if the tile has already been visited
         if (!visitedTiles.Contains(tileID))
         {
-            TriggerRandomEvent();
-            visitedTiles.Add(tileID); 
+            visitedTiles.Add(tileID);
+            int eventOrEncounter = Random.Range(0, 2);
+            if (eventOrEncounter == 0)
+            {
+                TriggerRandomEvent();
+            } else if (eventOrEncounter == 1)
+            {
+                TriggerRandomEncounter();
+            }
         }
     }
-
+    
     private void TriggerRandomEvent()
     {
         int randomIndex = Random.Range(0, randomEvents.Count);
@@ -55,8 +71,29 @@ public class Encountercontroller : MonoBehaviour
         else if (selectedEvent.Contains("lose 75 rations")) JohnScript.UpdateRations(-75);
         else if (selectedEvent.Contains("gain 75 rations")) JohnScript.UpdateRations(75);
     }
+    private void TriggerRandomEncounter()
+    {
+        int rdEnemy = Random.Range(0, 3);
 
-    // Function to close the popup
+        popupText.text = "An enemy attacks you";
+        popupPanel.SetActive(true);
+        mainCamera.transform.position = new Vector3(40, 0, -10);
+        switch (rdEnemy)
+        {
+            case 0:
+                GameObject enemyGO1 = Instantiate(enemyPrefab1, EnemyBattleStation.transform);
+                break;
+            case 1:
+                GameObject enemyGO2 = Instantiate(enemyPrefab2, EnemyBattleStation.transform);
+                break;
+            case 2:
+                GameObject enemyGO3 = Instantiate(enemyPrefab3, EnemyBattleStation.transform);
+                break;
+        }
+            
+    }
+
+    // Function to close the popup 
     private void ClosePopup()
     {
         popupPanel.SetActive(false);
