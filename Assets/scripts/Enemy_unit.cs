@@ -119,7 +119,7 @@ public class Enemy_unit : JohnScript
 
     private IEnumerator EnemyTurn()
     {
-        yield return new WaitForSeconds(1f);  // Small delay to simulate the enemy thinking or animating
+        yield return new WaitForSeconds(0.5f);  // Small delay to simulate the enemy thinking or animating
 
         Debug.Log("Enemy attacks!");
         PlayerTakeDamage(unitDamage);  // Enemy attacks player
