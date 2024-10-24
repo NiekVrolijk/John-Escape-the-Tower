@@ -13,6 +13,7 @@ public class JohnScript : MonoBehaviour
     void Start()
     {
         rations = 1000;
+        johnLocation = 0;
     }
 
     // Update is called once per frame
