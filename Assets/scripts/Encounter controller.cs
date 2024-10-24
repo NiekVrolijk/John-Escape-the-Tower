@@ -47,13 +47,13 @@ public class Encountercontroller : MonoBehaviour
         popupText.text = selectedEvent;
         popupPanel.SetActive(true);
 
-        if (selectedEvent.Contains("lose 50 Rations")) JohnScript.rations -= 50;
-        else if (selectedEvent.Contains("lose 100 Rations")) JohnScript.rations -= 100;
-        else if (selectedEvent.Contains("gain 100 rations")) JohnScript.rations += 100;
-        else if (selectedEvent.Contains("lose 25 rations")) JohnScript.rations -= 25;
-        else if (selectedEvent.Contains("gain 50 rations")) JohnScript.rations += 50;
-        else if (selectedEvent.Contains("lose 75 rations")) JohnScript.rations -= 75;
-        else if (selectedEvent.Contains("gain 75 rations")) JohnScript.rations += 75;
+        if (selectedEvent.Contains("lose 50 Rations")) JohnScript.UpdateRations(-50);
+        else if (selectedEvent.Contains("lose 100 Rations")) JohnScript.UpdateRations(-100);
+        else if (selectedEvent.Contains("gain 100 rations")) JohnScript.UpdateRations(100);
+        else if (selectedEvent.Contains("lose 25 rations")) JohnScript.UpdateRations(-25);
+        else if (selectedEvent.Contains("gain 50 rations")) JohnScript.UpdateRations(50);
+        else if (selectedEvent.Contains("lose 75 rations")) JohnScript.UpdateRations(-75);
+        else if (selectedEvent.Contains("gain 75 rations")) JohnScript.UpdateRations(75);
     }
 
     // Function to close the popup

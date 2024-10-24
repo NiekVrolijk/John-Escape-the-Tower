@@ -43,10 +43,14 @@ public class BattleSystem : MonoBehaviour
         PlayerTurn();
     }
 
-    public IEnumerator PlayerAttack()
+    public IEnumerator PlayerAttack() //the Ienumerator is so that you can use the yield waitforseconds which makes the game wait a few seconds 
     {
         Debug.Log(cardData.damageMax);
+        // the one below this is the issue its supposed to be the comment below it but first while testing I thought it might have not worked
+        // because there was no cardData but I fixed that and the cardData works but for some reason even with just brute force giving it an int it does not work
+       
         bool IsDead = enemyUnit.TakeDamage(9);
+        //bool IsDead = enemyUnit.TakeDamage(cardData.damageMax); 
         enemyHUD.SetHp(enemyUnit.unitCurrenthp);
 
 
@@ -102,7 +106,7 @@ public class BattleSystem : MonoBehaviour
     public void OnAttack()
     {
 
-        /*if (state != BattleState.PLAYERTURN)
+        /*if (state != BattleState.PLAYERTURN)  //this gave issues so I just removed it cause it does basically nothing 
         {
             Debug.Log("before");
             return;
@@ -111,8 +115,8 @@ public class BattleSystem : MonoBehaviour
         }*/
         Debug.Log("outside");
         Debug.Log(cardData);
-        StartCoroutine(PlayerAttack());
-        Destroy(gameObject);
+        StartCoroutine(PlayerAttack()); // stsart the playerAttack function
+        Destroy(gameObject); //destroy the card that's being used
     }
     
 }
