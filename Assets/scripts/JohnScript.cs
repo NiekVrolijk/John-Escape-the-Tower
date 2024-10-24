@@ -12,7 +12,7 @@ public class JohnScript : MonoBehaviour
 
     public TextMeshProUGUI rationsText; // Reference to the UI TextMeshProUGUI component
 
-    public int[] Attack = new int[10];
+    public static int[] Attack = new int[10];
 
 
     // Start is called before the first frame update
@@ -39,7 +39,7 @@ public class JohnScript : MonoBehaviour
     {
         UpdateRationsDisplay();
 
-        {
+        
             if (rations <= 0)
             {
                 SceneManager.LoadScene("DeathScene");
@@ -48,7 +48,7 @@ public class JohnScript : MonoBehaviour
             {
                 SceneManager.LoadScene("WinScene");
             }
-        }
+        
     }
 
     private void UpdateRationsDisplay()

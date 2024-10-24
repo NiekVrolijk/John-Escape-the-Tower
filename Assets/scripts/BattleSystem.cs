@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
+public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
     public GameObject enemyPrefab1;
@@ -20,7 +20,7 @@ public class BattleSystem : MonoBehaviour
 
     public Transform EnemyBattleStation;
     Enemy_unit enemyUnit;
-    
+
     public Enemy_Hud enemyHUD;
     public TMP_Text DialogueText;
 
@@ -51,32 +51,32 @@ public class BattleSystem : MonoBehaviour
         Debug.Log(cardData.damageMax);
         // the one below this is the issue its supposed to be the comment below it but first while testing I thought it might have not worked
         // because there was no cardData but I fixed that and the cardData works but for some reason even with just brute force giving it an int it does not work
-       
-        bool IsDead = enemyUnit.TakeDamage(9);
+
+        enemyUnit.TakeDamage(9);
         //bool IsDead = enemyUnit.TakeDamage(cardData.damageMax); 
         enemyHUD.SetHp(enemyUnit.unitCurrenthp);
 
 
         yield return new WaitForSeconds(2f);
 
-        if (IsDead)
-        {
-            state = BattleState.WON;
-            EndBattle();
-        }
-        else
-        {
-            state = BattleState.ENEMYTURN;
-            StartCoroutine(EnemyTurn());
-        }
+        //if (IsDead)
+        //{
+        //    state = BattleState.WON;
+        //    EndBattle();
+        //}
+        //else
+        //{
+        //    state = BattleState.ENEMYTURN;
+        //    StartCoroutine(EnemyTurn());
+        //}
     }
 
-    IEnumerator EnemyTurn() 
+    IEnumerator EnemyTurn()
     {
         DialogueText.text = enemyUnit.unitName + "has attacked you";
         yield return new WaitForSeconds(1f);
-        
-        bool IsDead = enemyUnit.PlayerTakeDamage(enemyUnit.unitDamage);
+
+        bool IsDead = false;//.PlayerTakeDamage(enemyUnit.unitDamage);
 
         if (IsDead == true)
         {
@@ -89,7 +89,7 @@ public class BattleSystem : MonoBehaviour
             PlayerTurn();
         }
     }
-    
+
     void EndBattle()
     {
         if (state == BattleState.WON)
@@ -100,7 +100,7 @@ public class BattleSystem : MonoBehaviour
         {
             DialogueText.text = "you starved to death on you skill issue";
         }
-    } 
+    }
     public void PlayerTurn()
     {
         DialogueText.text = "ey mate its your turn do something";
@@ -121,5 +121,5 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(PlayerAttack()); // stsart the playerAttack function
         Destroy(gameObject); //destroy the card that's being used
     }
-    
+
 }
