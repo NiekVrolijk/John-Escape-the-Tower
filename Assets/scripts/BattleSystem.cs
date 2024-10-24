@@ -11,7 +11,10 @@ using UnityEngine.UI;
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST}
 public class BattleSystem : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public GameObject enemyPrefab1;
+    public GameObject enemyPrefab2;
+    public GameObject enemyPrefab3;
+    public GameObject enemyPrefab4;
     public Card cardData;
     public BattleState state;
 
@@ -31,7 +34,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator SetUpBattle()
     {
-        GameObject enemyGO = Instantiate(enemyPrefab, EnemyBattleStation);
+        GameObject enemyGO = Instantiate(enemyPrefab1, EnemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Enemy_unit>();
 
         enemyHUD.SetHUD(enemyUnit);

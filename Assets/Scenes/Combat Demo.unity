@@ -615,7 +615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08110c01a6064446bfb890221400fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
+  enemyPrefab1: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
+  enemyPrefab2: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
+  enemyPrefab3: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
+  enemyPrefab4: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
   cardData: {fileID: 0}
   state: 0
   EnemyBattleStation: {fileID: 1312550093}
