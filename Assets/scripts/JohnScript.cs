@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Timeline;
 
 public class JohnScript : MonoBehaviour
 {
@@ -11,9 +12,16 @@ public class JohnScript : MonoBehaviour
 
     public TextMeshProUGUI rationsText; // Reference to the UI TextMeshProUGUI component
 
+    public int[] Attack = new int[10];
+
+
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < Attack.Length; i++)
+        {
+            Attack[i] = 1;
+        }
         rations = 1000;
         johnLocation = 0;
         UpdateRationsDisplay();

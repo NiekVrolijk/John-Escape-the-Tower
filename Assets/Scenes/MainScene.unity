@@ -266,7 +266,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 7f7327229cc407e4fb5a19ed80f9c510, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -286,12 +286,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179480806}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.99, y: -0.18, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0099983215, y: -0.18, z: -0.00031821197}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1245912458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255934020
 GameObject:
@@ -399,11 +399,11 @@ MonoBehaviour:
   popupText: {fileID: 1784698762}
   closeButton: {fileID: 1869000718}
   mainCamera: {fileID: 401437973}
-  EnemyBattleStation: {fileID: 0}
-  enemyPrefab1: {fileID: 0}
-  enemyPrefab2: {fileID: 0}
-  enemyPrefab3: {fileID: 0}
-  enemyPrefab4: {fileID: 0}
+  EnemyBattleStation: {fileID: 1245912456}
+  enemyPrefab1: {fileID: 6994299645959880410, guid: abbf453b851aba14c8992dfa62ac7e21, type: 3}
+  enemyPrefab2: {fileID: 8335886943313282144, guid: def84621ed9a4e14ea9040fb588bc17e, type: 3}
+  enemyPrefab3: {fileID: 5621067394349835569, guid: 4014afe3f154b3148aa2b485aa9de50a, type: 3}
+  enemyPrefab4: {fileID: 8279369674706737489, guid: 69f8ef02f57ad3f4abdb4f5070a7e47d, type: 3}
 --- !u!4 &351299703
 Transform:
   m_ObjectHideFlags: 0
@@ -3666,6 +3666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 179480808}
   - {fileID: 1542402284}
   m_Father: {fileID: 823217419}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6369,4 +6370,3 @@ SceneRoots:
   - {fileID: 2123329940}
   - {fileID: 351299703}
   - {fileID: 823217419}
-  - {fileID: 179480808}
