@@ -93,7 +93,7 @@ public class Encountercontroller : MonoBehaviour
             
     }
 
-    // Function to close the popup
+    // Function to close the popup 
     private void ClosePopup()
     {
         popupPanel.SetActive(false);
