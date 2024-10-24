@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class JohnScript : MonoBehaviour
@@ -9,23 +9,45 @@ public class JohnScript : MonoBehaviour
     public static int rations;
     public static int johnLocation = 0;
 
+    public TextMeshProUGUI rationsText; // Reference to the UI TextMeshProUGUI component
+
     // Start is called before the first frame update
     void Start()
     {
         rations = 1000;
         johnLocation = 0;
+        UpdateRationsDisplay();
     }
 
-    // Update is called once per frame
+    public static void UpdateRations(int amount)
+    {
+        rations += amount;
+        // You may want to ensure rations don't drop below zero
+        rations = Mathf.Max(0, rations);
+
+    }
+
     void Update()
     {
-        if (rations <= 0)
+        UpdateRationsDisplay();
+
         {
-            SceneManager.LoadScene("DeathScene");
+            if (rations <= 0)
+            {
+                SceneManager.LoadScene("DeathScene");
+            }
+            if (johnLocation == 19)
+            {
+                SceneManager.LoadScene("WinScene");
+            }
         }
-        if (johnLocation == 19) 
+    }
+
+    private void UpdateRationsDisplay()
+    {
+        if (rationsText != null)
         {
-            SceneManager.LoadScene("WinScene");
+            rationsText.text = "Rations: " + rations.ToString();
         }
     }
 }

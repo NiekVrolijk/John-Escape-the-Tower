@@ -94,7 +94,7 @@ public class pointScript : MonoBehaviour
             if (connectedTiles.Contains(pointID))
             {
                 JohnScript.johnLocation = pointID;
-                JohnScript.rations -= 100;
+                JohnScript.UpdateRations(-100);
                 if (!CompareTag("Special"))
                 {
                     encounterController.OnEnterTile(pointID);
